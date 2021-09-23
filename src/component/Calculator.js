@@ -58,7 +58,7 @@ function Calculator() {
 
   function calcular(){
     try{
-      setResultados(eval(resultados).toString());
+      setResultados((resultados).toString());
     }catch(error){
       setResultados("Error");
     }
